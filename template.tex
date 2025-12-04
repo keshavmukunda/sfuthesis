@@ -28,6 +28,9 @@
 %       - Faculty of Environment
 %       - Faculty of Health Sciences
 %       - Faculty of Science
+%       - Faculty of Graduate Studies
+%       - School of Medicine
+
 
 \title{An example of a thesis on the subject of your degree}
 \thesistype{Thesis}
@@ -38,8 +41,8 @@
 \degree{Doctor of Philosophy}
 \department{Department of Inadvisably Applied Mathematics}
 \faculty{Faculty of Example Names}
-\copyrightyear{2021}
-\semester{Fall 2021}
+\copyrightyear{2025}
+\semester{Fall 2025}
 
 
 %   You may include up to six keywords or phrases. Keywords should be separated
@@ -89,19 +92,25 @@
 %   (2) amsthm includes allows you to easily change the style and numbering of
 %       theorems. It also provides an environment for proofs.
 %   (3) graphicx allows you to add images with \includegraphics{filename}.
-%   (4) hyperref turns your citations and cross-references into clickable
-%       links, and adds metadata to the compiled PDF.
-%   (5) pdfpages lets you import pages of external PDFs using the command
+%   (4) pdfx is required to create a PDF/A version of your thesis file.
+%   (5) hyperref turns your citations and cross-references into clickable
+%       links, and adds metadata to the compiled PDF. Don't add options to the hyperref package as 
+%	these will conflict with the pdfx package. 
+%   (6) pdfpages lets you import pages of external PDFs using the command
 %       \includepdf{filename}. You will need to do this if your research
-%       requires an Ethics Statement.
+%       requires an Ethics Statement, so uncomment that line below. 
 %
 
-\usepackage{amsmath}                            % (1)
-\usepackage{amssymb}                            % (1)
-\usepackage{amsthm}                             % (2)
-\usepackage{graphicx}                           % (3)
-\usepackage[pdfborder={0 0 0}]{hyperref}        % (4)
-% \usepackage{pdfpages}                         % (5)
+\usepackage{amsmath}                            
+\usepackage{amssymb}                            
+\usepackage{amsthm}                             
+\usepackage{graphicx}       
+% The pdfx package is needed here to make a PDF/A version of your thesis. Don't change the order in which the following two lines appear, and don't add any options to the hyperref package.           
+\usepackage[a-1b]{pdfx}      
+\usepackage{hyperref}    
+          
+%\usepackage[pdfborder={0 0 0}]{hyperref}        
+% \usepackage{pdfpages}                         
 % ...
 % ...
 % ...
@@ -193,7 +202,7 @@ This is an optional page. Use your choice of paragraph style for text on this pa
 %   Start writing your thesis --- or start \include ing chapters --- here.
 %
 
-\mainmatter%
+\mainmatter
 
 \chapter{Introduction}
 

@@ -14,7 +14,7 @@
 %   2005/12/01 or later.
 %
 %   This work has the LPPL maintenance status `maintained'. The Current
-%   Maintainer is Ross Churchley.
+%   Maintainer is SFU Library Research Commons.
 %
 %
 %   Contributors
@@ -84,7 +84,7 @@
 %
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{sfuthesis}[2022/09/12 v2.3.3 SFU Thesis Template]
+\ProvidesClass{sfuthesis}%[2025/12/2 v2.4.0 SFU Thesis Template]
 
 
 %   CLASS OPTIONS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

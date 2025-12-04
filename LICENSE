@@ -13,8 +13,8 @@ and version 1.3 or later is part of all distributions of LaTeX version
 This work consists of the following files:
 
 - sfuthesis.cls
-- sfuapproval.cls
-- template.tex.
+- template.tex
+- template.xmpdata
 
 This work has the LPPL maintenance status `maintained'. The Current
-Maintainer is Ross Churchley.
+Maintainer is SFU Library Research Commons.
