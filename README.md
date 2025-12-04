@@ -1,12 +1,12 @@
 # sfuthesis
 
-The `sfuthesis` project provides a template from which graduate students at Simon Fraser University can start writing their thesis.
+The `sfuthesis` project provides a template from which graduate students at Simon Fraser University can start writing their thesis.   
 
 The LaTeX class file `sfuthesis.cls` sets your document to follow the SFU Library's style requirements, so you can focus on writing up your research instead of fiddling with formatting.
 
 As of Fall 2025, the SFU Library has approved the 2.4.0 release of `sfuthesis` to replace any older thesis templates.
 
-Before you submit your thesis, please make sure to **double-check all style requirements** on the [SFU Library website](http://www.lib.sfu.ca/help/publish/thesis).
+Please note that SFU Library does not provide technical support for LaTeX users, and provides this project 'as-is'. Before you submit your thesis, please make sure to **double-check all style requirements** on the [SFU Library website](http://www.lib.sfu.ca/help/publish/thesis).
 There are several standards (e.g. abstract word limits) that LaTeX cannot automatically arrange for you, and you are ultimately responsible for making sure that your thesis conforms to the regulations set out by the Library.
 
 
